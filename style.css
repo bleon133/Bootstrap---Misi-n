@@ -1,0 +1,29 @@
+.fondo{
+    background-color: #000086;
+}
+
+.btn-contactos:hover{
+    background-color: #000086 !important;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.item-footer{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+@media (max-width: 580px){
+    .item-footer{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    h3{
+        margin-top: 40px
+    }
+}
